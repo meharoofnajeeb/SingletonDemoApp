@@ -16,6 +16,7 @@
 		5F215A9A2D0D487900A729D7 /* SingletonDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F215A992D0D487900A729D7 /* SingletonDemoAppTests.swift */; };
 		5F215AA42D0D487900A729D7 /* SingletonDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F215AA32D0D487900A729D7 /* SingletonDemoAppUITests.swift */; };
 		5F215AA62D0D487900A729D7 /* SingletonDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F215AA52D0D487900A729D7 /* SingletonDemoAppUITestsLaunchTests.swift */; };
+		5F215AB52D0D530300A729D7 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F215AB42D0D530300A729D7 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5F215A9F2D0D487900A729D7 /* SingletonDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F215AA32D0D487900A729D7 /* SingletonDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonDemoAppUITests.swift; sourceTree = "<group>"; };
 		5F215AA52D0D487900A729D7 /* SingletonDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F215AB42D0D530300A729D7 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5F215A822D0D487600A729D7 /* AppDelegate.swift */,
 				5F215A842D0D487600A729D7 /* SceneDelegate.swift */,
+				5F215AB42D0D530300A729D7 /* Singleton.swift */,
 				5F215A862D0D487600A729D7 /* ViewController.swift */,
 				5F215A882D0D487600A729D7 /* Main.storyboard */,
 				5F215A8B2D0D487800A729D7 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F215A872D0D487600A729D7 /* ViewController.swift in Sources */,
+				5F215AB52D0D530300A729D7 /* Singleton.swift in Sources */,
 				5F215A832D0D487600A729D7 /* AppDelegate.swift in Sources */,
 				5F215A852D0D487600A729D7 /* SceneDelegate.swift in Sources */,
 			);
